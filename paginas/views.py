@@ -4,7 +4,7 @@ from django.views.generic import TemplateView
 
 
 class PaginaInicial(TemplateView):
-    template_name = "cadastroU.html"
+    template_name = "index.html"
 
 class listaU(TemplateView):
     template_name = "listaU.html"

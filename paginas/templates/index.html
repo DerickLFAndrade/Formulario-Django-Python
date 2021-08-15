@@ -1,0 +1,32 @@
+{% extends 'modelo.html' %}
+{% load static %}
+{% block title %}
+<title>Página inicial</title>
+{% endblock %}
+
+{% block corpo %}
+<div class="content"></div>
+<div class="container" id="titul">
+
+    <h1>Desafio Tech (Desenvolvimento de Software)</h1>
+
+    <h3>Parte 1 - Backend:</h3>
+    <ul>
+
+        <li>Criar um app no Django conectado com um Banco de dados (SQLITE, Mysql, Postgres... etc);
+        <li>Criar uma API para cadastrar um usuário, recebendo os dados a seguir: E-mail, CPF;
+        <li>Criar uma API para consultar todos os usuários.
+
+    </ul>
+
+    <h3>Parte 2 - Front:</h3>
+
+    <ul>
+        <li>Criar uma tela para cadastrar usuários;
+        <li>Criar uma tela para listagem dos usuários.
+    </ul>
+
+    <a href="{% url 'cadastrar-campo' %}"><input type="button" value="Vamos lá!" class="btn btn-dark"></a>
+
+</div>
+{% endblock %}

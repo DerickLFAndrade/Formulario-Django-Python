@@ -24,7 +24,9 @@
 
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark p-3">
-                <h5 class="text-white h4">Desafio Tech Frexco</h5>
+                <a href="{% url 'index' %}"><img src="{% static 'img/djangoLogo.png' %}" alt="logo" width="100px"></a>
+                <h5 class="text-white h4">Desafio Tech Frexco </h5>
+               <br>
                 <span class="text-muted">Estágio Dev front/backend</span>
             </div>
         </div>
@@ -36,18 +38,7 @@
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Acesso
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-
-                    <li><a class="dropdown-item" href="#"><button type="submit" class="btn btn-primary">Lista
-                                usuário</button></a></li>
-                    <li><a class="dropdown-item" href="#"><button type="submit"
-                                class="btn btn-primary">Cadastrar</button></a></li>
-                </ul>
+           
             </div>
 
 
@@ -59,26 +50,11 @@
     {% endblock %}
 
     {% block corpo %}
+
     <div class="content"></div>
 
     <div class="container" id="titul">
-
-        <h4>Cadastrar usuários:</h4>
-        <br>
-        <h5>Por favor, preencha os campos abaixo com e-mail e cpf:</h5>
-
-        <div class="class g-3">
-            <div class="col">
-                <div class="col">
-                    <input type="text" placeholder="Email" aria-label="Email">
-
-                    <input type="text" placeholder="CPF" aria-label="CPF">
-                    <button id="btn1" type="submit" class="btn btn-primary"><b>Enviar</b></button>
-                </div>
-
-            </div>
-        </div>
-
+        <h1>Modelo</h1>
     </div>
 
     {% endblock %}
@@ -102,15 +78,15 @@
                 <div class="col-sm-2">
                     <h5>Inicio</h5>
                     <ul>
-                        <li><a href="{% url 'cadastro' %}">Home</a></li>
-                        <li><a href="">Cursos</a></li>
-                        <li><a href="">Downloads</a></li>
+                        <li><a href="{% url 'index' %}">Home</a></li>
+                        <li><a href="">lista</a></li>
+                        <li><a href="">lisa</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-2">
                     <h5>Sobre-nós</h5>
                     <ul>
-                        <li><a href="">Informações da Empresa</a></li>
+                        <li><a href="">Informações</a></li>
                         <li><a href="">Contato</a></li>
                         <li><a href="">Blog</a></li>
                     </ul>
@@ -118,9 +94,9 @@
                 <div class="col-sm-2">
                     <h5>Suporte</h5>
                     <ul>
-                        <li><a href="">FAQ</a></li>
-                        <li><a href="">Telefones</a></li>
-                        <li><a href="">Chat</a></li>
+                        <li><a href="">lista</a></li>
+                        <li><a href="">lista</a></li>
+                        <li><a href="">lista</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
@@ -129,9 +105,7 @@
                         <a href="" class="facebook"><i class="fa fa-facebook"></i></a>
                         <a href="" class="instagram"><i class="fa fa-instagram"></i></a>
                     </div>
-                    <a href="">
-                        <button type="button" class="btn btn-default">Contato</button>
-                    </a>
+                    
                 </div>
             </div>
         </div>

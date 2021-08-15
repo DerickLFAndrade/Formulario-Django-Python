@@ -1,0 +1,28 @@
+{% extends 'modelo.html' %}
+
+{% load static %}
+{% block title %}
+<title>Cadastro de Usuário</title>
+{% endblock %}
+{% block corpo %}
+<div class="content"></div>
+<div class="container" id="titul">
+
+    
+    <P class="lead"> Confirme para exluir o registro </P>
+    
+
+    <form action="" method="POST">
+
+        Deseja Excluir o registro: <strong>{{object}}</strong>
+        {% csrf_token %}
+
+        {{ form.as_p }}
+
+        <button type="submit" class="btn-danger">Excluir</button>
+
+    </form>
+
+
+</div>
+{% endblock %}
