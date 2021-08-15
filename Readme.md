@@ -25,24 +25,38 @@
 | - Criação do esqueleto das páginas       |      17/08      |    14/08    |   10/10    | ***Concluído*** |
 | - Criação de pastas para organização do projeto |      17/08      |    13/08    |   10/10    | ***Concluído*** |
 | - Criar página modelo/design principal   |      17/08      |    13/08    |    8/10    |  **Concluído**  |
-| -Criar uma API para cadastrar um usuário |      17/08      |  Pendente   |   10/10    |   *Pendente*    |
+| -Criar uma API para cadastrar um usuário |      17/08      |    15/08    |   10/10    |  **Concluído**  |
 
 
 
 # 2º Sprint
 
-| Task                                     | Solicitado Para | Entregue em | Prioridade |   Status   |
-| :--------------------------------------- | :-------------: | :---------: | :--------: | :--------: |
-| - Criação de links para navegação dentro do site |      17/08      |  Pendente   |    5/10    | *Pendente* |
-| -Criar uma API para consultar todos os usuários. |      17/08      |  Pendente   |   10/10    | *Pendente* |
-| -Criar uma tela para cadastrar usuário   |      17/08      |  Pendente   |   10/10    | *Pendente* |
-| -Criar uma tela para listagem de usuário |      17/08      |  Pendente   |   10/10    | *Pendente* |
+| Task                                     | Solicitado Para | Entregue em | Prioridade |    Status     |
+| :--------------------------------------- | :-------------: | :---------: | :--------: | :-----------: |
+| - Criação de links para navegação dentro do site |      17/08      |    15/08    |    5/10    | **Concluído** |
+| -Criar uma API para consultar todos os usuários. |      17/08      |    15/08    |   10/10    | **Concluído** |
+| -Criar uma tela para cadastrar usuário   |      17/08      |    15/08    |   10/10    | **Concluído** |
+| -Criar uma tela para listagem de usuário |      17/08      |  Pendente   |   10/10    | **Concluído** |
 
 
 
 
 
 
+
+<h3>Para iniciar o servidor segue os passos após as instalação dos pacotes.</h3>
+
+  <h4>Com o projeto aberto abrir terminal dentro do Editor de código</h4>
+
+- Iniciar app com seguinte codigo:  workon django2;
+
+- python manage.py runserver.
+
+  Após isso, aparecerá "Starting development server at http:127.0.0.1:8000/" 
+
+  Então é só apertar em cima do link a teclas alt+click (mouse)
+
+  ​
 
 
 
