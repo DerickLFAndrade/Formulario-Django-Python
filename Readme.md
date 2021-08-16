@@ -20,12 +20,15 @@
 
 | Task                                     | Solicitado Para | Entregue em | Prioridade |     Status      |
 | :--------------------------------------- | :-------------: | :---------: | :--------: | :-------------: |
-| - Instalação dos pacotes necessários para  início do projeto |      17/08      |    13/08    |    9/10    | ***Concluído*** |
+| - Instalação dos pacotes necessários para  início do projeto |      17/08      |    13/08    |   10/10    | ***Concluído*** |
 | - Esboço do projeto                      |      17/08      |    13/08    |    8/10    | ***Concluído*** |
-| - Criação do esqueleto das páginas       |      17/08      |    14/08    |   10/10    | ***Concluído*** |
+| - Criação do esqueleto das páginas       |      17/08      |    14/08    |    8/10    | ***Concluído*** |
 | - Criação de pastas para organização do projeto |      17/08      |    13/08    |   10/10    | ***Concluído*** |
-| - Criar página modelo/design principal   |      17/08      |    13/08    |    8/10    |  **Concluído**  |
-| -Criar uma API para cadastrar um usuário |      17/08      |    15/08    |   10/10    |  **Concluído**  |
+| -Criar modelo de páginas/design principal |      17/08      |    14/08    |    7/10    |  **Concluído**  |
+| -Criar uma API para cadastrar usuários   |      17/08      |    15/08    |   10/10    |  **Concluído**  |
+| - Criar formulário com Email e Cpf com validação |      17/08      |    16/08    |   10/10    |  **Concluído**  |
+| -Criar páginas de excluir e editar usuários |      17/08      |    16/08    |    5/10    |  **Concluído**  |
+| - Criação de botões linkados para navegação dentro do site |      17/08      |    16/08    |    7/10    |  **Concluído**  |
 
 
 
@@ -33,10 +36,10 @@
 
 | Task                                     | Solicitado Para | Entregue em | Prioridade |    Status     |
 | :--------------------------------------- | :-------------: | :---------: | :--------: | :-----------: |
-| - Criação de links para navegação dentro do site |      17/08      |    15/08    |    5/10    | **Concluído** |
-| -Criar uma API para consultar todos os usuários. |      17/08      |    15/08    |   10/10    | **Concluído** |
-| -Criar uma tela para cadastrar usuário   |      17/08      |    15/08    |   10/10    | **Concluído** |
-| -Criar uma tela para listagem de usuário |      17/08      |    15/08    |   10/10    | **Concluído** |
+| -Criar uma API para consultar todos os usuários. |      17/08      |    16/08    |   10/10    | **Concluído** |
+| -Criar uma tela para cadastrar usuário   |      17/08      |    16/08    |   10/10    | **Concluído** |
+| -Criar uma tela para listagem de usuário |      17/08      |    16/08    |   10/10    | **Concluído** |
+| -Revisar funcionalidades do site para entrega do projeto |      17/08      |    16/08    |   10/10    | **Concluído** |
 
 
 
@@ -61,7 +64,7 @@
 
 
 
-<h1>Tecnologias/Linguagens/Programas utilizadas:</h1>
+<h1>Tecnologias/Linguagens/Programas utilizados:</h1>
 
 - Vsconde
 - Python
