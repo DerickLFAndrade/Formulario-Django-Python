@@ -41,40 +41,6 @@
 | -Criar uma tela para listagem de usuário |      17/08      |    16/08    |   10/10    | **Concluído** |
 | -Revisar funcionalidades do site para entrega do projeto |      17/08      |    16/08    |   10/10    | **Concluído** |
 
-
-
-
-
-
-
-<h3>Para iniciar o servidor segue os passos após as instalação dos pacotes:
-
-- Com o projeto aberto abrir o terminal (cmd) dentro do Editor de código
-
-
-- Iniciar app com seguinte código:  workon django2
-
-- Código para iniciar o servidor: python manage.py runserver
-
-  Após isso, aparecerá "Starting development server at http:127.0.0.1:8000/" 
-
-  Então é só apertar em cima do link a teclas alt+click (mouse)
-
-  ​
-
-
-
-<h1>Tecnologias/Linguagens/Programas utilizados:</h1>
-
-- Vsconde
-- Python
-- HTML5
-- CSS3
-- Javascript
-- Bootstrap
-
-
-
 <h1>Pacotes utilizados dentro do projeto (django2)</h1>
 
 asgiref==3.4.1 <br>
@@ -110,6 +76,39 @@ sqlparse==0.4.1 <br>
 toml==0.10.2 <br>
 urllib3==1.26.6 <br>
 wrapt==1.12.1 <br>
+
+
+
+
+
+<h3>Para iniciar o servidor segue os passos após as instalação dos pacotes:
+
+- Com o projeto aberto abrir o terminal (cmd) dentro do Editor de código
+
+
+- Iniciar app com seguinte código:  workon django2
+
+- Código para iniciar o servidor: python manage.py runserver
+
+  Após isso, aparecerá "Starting development server at http:127.0.0.1:8000/" 
+
+  Então é só apertar em cima do link a tecla alt+click (mouse)
+
+  ​
+
+
+
+<h1>Tecnologias/Linguagens/Programas utilizados:</h1>
+
+- Vsconde
+- Python
+- HTML5
+- CSS3
+- Javascript
+- Bootstrap
+
+
+
 
 ------
 

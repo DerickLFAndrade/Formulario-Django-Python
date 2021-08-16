@@ -7,40 +7,46 @@
 {% block header %}
     <div class="container-fluid" id="cabeçalho">
     
-    
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark p-3">
                 <a href="{% url 'index' %}"><img src="{% static 'img/djangoLogo.png' %}" alt="logo" width="100px"></a>
                 <h5 class="text-white h4">Desafio Tech Frexco </h5>
                 <br>
                 <span class="text-muted">Estágio Dev front/backend</span>
+                
             </div>
+            
         </div>
+        
         <nav class="navbar navbar-dark bg-dark">
-    
-    
+            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                 aria-expanded="false" aria-label="Toggle navigation">
+                
                 <span class="navbar-toggler-icon"></span>
     
-                <a href="{% url 'index' %}"><button id="btn2" type="submit" class="btn btn-dark">Página inicial</button></a>
+                
                 
             </button>
-    
+               <a href="{% url 'index' %}"><input type="button" class="btn btn-dark" value="Página inicial" id=></a> 
     </div>
     
     
     
     
     </nav>
+    
     </div>
 
 {% endblock %}
 
 {% block corpo %}
-<div class="content"></div>
+
+<div class="content">  </div>
+
 <div class="container" id="titul">
+    
 
     <h2>Cadastro de Usuário</h2>
     <P class="lead"> Preencha todos os campos obrigatórios: </P>

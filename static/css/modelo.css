@@ -3,7 +3,9 @@ body {
     background-color: rgb(0, 0, 0);
     color: white;  
 }
-
+#cabeçalho{
+    height: 100px;
+}
 
 #titul {
     background-color: rgb(78, 78, 78);
