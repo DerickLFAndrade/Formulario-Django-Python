@@ -9,7 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/model.css' %}">
+    <link rel="stylesheet" href="{% static 'css/modelo.css' %}">
+    
 
     
 
@@ -20,8 +21,9 @@
 </head>
     
 <body>
+    {% block header %}
     <div class="container-fluid" id="cabeçalho">
-        {% block header %}
+       
 
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark p-3">
@@ -38,8 +40,7 @@
                 data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-                    <a href="{% url 'index' %}"><button id="btn2" type="submit" class="btn btn-dark">Página anterior</button></a>
-                        <a href="{% url 'index' %}"><button id="btn2" type="submit" class="btn btn-dark">Voltar</button></a>
+                  
 
             </button>
            

@@ -36,7 +36,7 @@
 | - Criação de links para navegação dentro do site |      17/08      |    15/08    |    5/10    | **Concluído** |
 | -Criar uma API para consultar todos os usuários. |      17/08      |    15/08    |   10/10    | **Concluído** |
 | -Criar uma tela para cadastrar usuário   |      17/08      |    15/08    |   10/10    | **Concluído** |
-| -Criar uma tela para listagem de usuário |      17/08      |  Pendente   |   10/10    | **Concluído** |
+| -Criar uma tela para listagem de usuário |      17/08      |    15/08    |   10/10    | **Concluído** |
 
 
 
@@ -77,20 +77,35 @@
 asgiref==3.4.1 <br>
 astroid==2.6.6 <br>
 autopep8==1.5.7 <br>
+certifi==2021.5.30 <br>
+cffi==1.14.6 <br>
+charset-normalizer==2.0.4 <br>
 colorama==0.4.4 <br>
+cryptography==3.4.7 <br>
+defusedxml==0.7.1 <br>
 Django==3.2.6 <br>
+django-allauth==0.45.0 <br>
 django-braces==1.14.0 <br>
 django-cleanup==5.2.0 <br>
+django-cpf==0.1.0 <br>
 django-crispy-forms==1.12.0 <br>
+idna==3.2 <br>
 isort==5.9.3 <br>
 lazy-object-proxy==1.6.0 <br>
 mccabe==0.6.1 <br>
+oauthlib==3.1.1 <br>
 pycodestyle==2.7.0 <br>
+pycparser==2.20 <br>
+PyJWT==2.1.0 <br>
 pylint==2.9.6 <br>
+python3-openid==3.2.0 <br>
 pytz==2021.1 <br>
+requests==2.26.0 <br>
+requests-oauthlib==1.3.0 <br>
 six==1.16.0 <br>
 sqlparse==0.4.1 <br>
 toml==0.10.2 <br>
+urllib3==1.26.6 <br>
 wrapt==1.12.1 <br>
 
 ------
