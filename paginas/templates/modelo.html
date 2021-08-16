@@ -1,55 +1,49 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="pt-br">
-  
+
 <head>
     <link rel="shortcut icon" href="{% static 'img/ícone/icone.ico' %}" type="image/x-icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/modelo.css' %}">
-    
 
-    
+
+
 
 
     {% block title %}
     <title>MODELO</title>
     {% endblock %}
 </head>
-    
+
 <body>
     {% block header %}
-    <div class="container-fluid" id="cabeçalho">
-       
-
+    <div class="container-fluid">
         <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-dark p-3">
+            <div class="bg-dark p-1">
                 <a href="{% url 'index' %}"><img src="{% static 'img/djangoLogo.png' %}" alt="logo" width="100px"></a>
                 <h5 class="text-white h4">Desafio Tech Frexco </h5>
-               <br>
+                <br>
                 <span class="text-muted">Estágio Dev front/backend</span>
             </div>
         </div>
         <nav class="navbar navbar-dark bg-dark">
-            
-
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-                  
-
             </button>
-        
-            </div>
+
+    </div>
 
 
 
 
-        </nav>
+    </nav>
     </div>
 
     {% endblock %}
@@ -109,7 +103,7 @@
                         <a href="" class="facebook"><i class="fa fa-facebook"></i></a>
                         <a href="" class="instagram"><i class="fa fa-instagram"></i></a>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
