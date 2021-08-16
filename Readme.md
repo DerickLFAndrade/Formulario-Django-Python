@@ -74,25 +74,25 @@
 
 <h1>Pacotes utilizados dentro do projeto (django2)</h1>
 
-asgiref==3.4.1
-astroid==2.6.6
-autopep8==1.5.7
-colorama==0.4.4
-Django==3.2.6
-django-braces==1.14.0
-django-cleanup==5.2.0
-django-crispy-forms==1.12.0
-isort==5.9.3
-lazy-object-proxy==1.6.0
-mccabe==0.6.1
-pycodestyle==2.7.0
-pylint==2.9.6
-pytz==2021.1
-six==1.16.0
-sqlparse==0.4.1
-toml==0.10.2
-wrapt==1.12.1
+asgiref==3.4.1 <br>
+astroid==2.6.6 <br>
+autopep8==1.5.7 <br>
+colorama==0.4.4 <br>
+Django==3.2.6 <br>
+django-braces==1.14.0 <br>
+django-cleanup==5.2.0 <br>
+django-crispy-forms==1.12.0 <br>
+isort==5.9.3 <br>
+lazy-object-proxy==1.6.0 <br>
+mccabe==0.6.1 <br>
+pycodestyle==2.7.0 <br>
+pylint==2.9.6 <br>
+pytz==2021.1 <br>
+six==1.16.0 <br>
+sqlparse==0.4.1 <br>
+toml==0.10.2 <br>
+wrapt==1.12.1 <br>
 
 ------
 
-#### Este projeto é fruto de um grande esforço e dedicação. Prova-se que, mesmo com grandes barreiras, conseguimos alcançar qualquer objetivo desde que se respeite esses dois elementos fundamentais para realização da tarefa que foi-lhe destinado!
+#### Este projeto é fruto de um grande *esforço* e *dedicação*. Prova-se que, mesmo com grandes barreiras, conseguimos alcançar qualquer objetivo desde que se respeite esses dois elementos fundamentais para realização da tarefa que foi-lhe destinado!
