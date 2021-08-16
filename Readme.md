@@ -44,13 +44,14 @@
 
 
 
-<h3>Para iniciar o servidor segue os passos após as instalação dos pacotes.</h3>
+<h3>Para iniciar o servidor segue os passos após as instalação dos pacotes:
 
-  <h4>Com o projeto aberto abrir terminal dentro do Editor de código</h4>
+- Com o projeto aberto abrir o terminal (cmd) dentro do Editor de código
 
-- Iniciar app com seguinte codigo:  workon django2;
 
-- python manage.py runserver.
+- Iniciar app com seguinte código:  workon django2
+
+- Código para iniciar o servidor: python manage.py runserver
 
   Após isso, aparecerá "Starting development server at http:127.0.0.1:8000/" 
 
